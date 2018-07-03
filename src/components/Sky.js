@@ -7,7 +7,7 @@ const Sky = () => {
   }
 
   const skyWidth = skyAndGroundWidth
-  const gameHeight = 1200
+  const gameHeight = 1800
 
   return (
     <rect
