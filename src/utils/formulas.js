@@ -11,7 +11,7 @@ export const pathFromBezierCurve = (cubicBezierCurve) => {
   `
 }
 
-export const radiansToDegrees = radians => (( radians * 100 ) / Math.Pi)
+export const radiansToDegrees = radians => (( radians * 100 ) / Math.PI)
 
 // https://math.stackexchange.com/questions/714378/find-the-angle-that-creating-with-y-axis-in-degrees
 export const calculateAngle = (x1, y1, x2, y2) => {
@@ -20,6 +20,8 @@ export const calculateAngle = (x1, y1, x2, y2) => {
   } else if (x2 < 0 && y2 >= 0) {
     return -90
   }
+
+
 
   // (dividend / divisor)
   const quotient = (x2 - x1) / (y2 - y1)

@@ -7,6 +7,7 @@ import Canvas from './components/Canvas'
 class App extends Component {
   componentDidMount() {
     const self = this
+
     setInterval(() => {
       self.props.moveObjects(self.canvasMousePosition)
     }, 10)
